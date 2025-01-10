@@ -1,5 +1,7 @@
 import { useContext } from "react";
 import { MyContext } from "../../lib/MyContext";
+import { TrashIcon } from "@heroicons/react/24/outline";
+
 
 const Recent = ({ amount, category, description, type, index }) => {
   const {
@@ -39,9 +41,9 @@ const Recent = ({ amount, category, description, type, index }) => {
           </p>
           <button
             onClick={handleDelete}
-            className="text-sm text-red-400 hover:text-red-500 font-semibold transition duration-300"
+            className="flex items-center justify-center w-8 h-8 bg-gray-800 text-red-400 hover:bg-gray-700 hover:text-red-500 rounded-full transition duration-300"
           >
-            Delete
+            <TrashIcon className="w-5 h-5" />
           </button>
         </div>
       </div>

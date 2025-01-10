@@ -46,8 +46,8 @@ const App = () => {
     <div>
       <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white p-4 sm:p-6 md:p-10">
         <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col sm:flex-row justify-between items-center mb-6 sm:mb-8">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <div className="flex flex-col sm:flex-row justify-between sm:items-center mb-6 sm:mb-8">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-left text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Xero Budget Tracker
             </h1>
             <button
