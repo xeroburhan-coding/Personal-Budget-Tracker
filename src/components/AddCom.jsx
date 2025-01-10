@@ -109,7 +109,7 @@ const AddCom = () => {
           Add New Transaction
         </h2>
         <div className="space-y-4">
-          <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-start space-y-4 sm:space-y-0 sm:space-x-4">
             <div className="flex items-center">
               <input
                 type="radio"
