@@ -161,7 +161,7 @@ const AddCom = () => {
               className="flex-1 bg-gray-700 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-600 text-sm"
             >
               <option>Category</option>
-              <option value="Food">Salary</option>
+              <option value="Salary">Salary</option>
               <option value="Food">Food</option>
               <option value="Transport">Transport</option>
               <option value="Entertainment">Entertainment</option>
